@@ -13,7 +13,7 @@ function rumusNinefive(number) {
 function getCelsius(fahrenheit) {
     return rumusNinefive(fahrenheit) * (5 / 9);
 }
-document.write("nilai fahrenheit</br>");
+document.write("nilai celsius to fahrenheit</br>");
 document.write(
     getFahrenheit(
         prompt(
@@ -21,7 +21,7 @@ document.write(
         )
     )
 );
-document.write("</br>nilai fahrenheit</br>");
+document.write("</br>nilai fahrenheit to celsius</br>");
 document.write(
     getCelsius(
         prompt(
